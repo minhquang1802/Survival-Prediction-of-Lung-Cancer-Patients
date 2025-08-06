@@ -72,7 +72,7 @@ The experiments use a publicly available dataset (e.g., **NSCLC Radiogenomics**)
 
 ## 📚 Report & Documentation
 
-See the full [Capstone Report (PDF)](./Capstone Report.pdf) for technical details, methodology, experimental setup, and analysis.
+See the full [Capstone Report (PDF)] for technical details, methodology, experimental setup, and analysis.
 
 ---
 
