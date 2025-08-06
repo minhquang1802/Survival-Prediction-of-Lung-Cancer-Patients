@@ -1,0 +1,6 @@
+run CT_mask_distance
+run normalize.py
+
+checker.py for detail of each .npy file
+
+check_empty.py for check empty slices for all .npy file 

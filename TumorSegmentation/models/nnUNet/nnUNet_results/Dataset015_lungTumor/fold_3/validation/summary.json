@@ -1,0 +1,394 @@
+{
+    "foreground_mean": {
+        "Dice": 0.7552756975790574,
+        "FN": 5201.95652173913,
+        "FP": 5064.782608695652,
+        "IoU": 0.636981130593261,
+        "TN": 77288464.04347827,
+        "TP": 22351.652173913044,
+        "n_pred": 27416.434782608696,
+        "n_ref": 27553.608695652172
+    },
+    "mean": {
+        "1": {
+            "Dice": 0.7552756975790574,
+            "FN": 5201.95652173913,
+            "FP": 5064.782608695652,
+            "IoU": 0.636981130593261,
+            "TN": 77288464.04347827,
+            "TP": 22351.652173913044,
+            "n_pred": 27416.434782608696,
+            "n_ref": 27553.608695652172
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8462992286867242,
+                    "FN": 57,
+                    "FP": 5961,
+                    "IoU": 0.733551757726025,
+                    "TN": 86222790,
+                    "TP": 16568,
+                    "n_pred": 22529,
+                    "n_ref": 16625
+                }
+            },
+            "prediction_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_results/Dataset015_lungTumor/nnUNetTrainer__nnUNetResEncUNetMPlans__3d_fullres/fold_3/validation/lung_005.nii.gz",
+            "reference_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_preprocessed/Dataset015_lungTumor/gt_segmentations/lung_005.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8705567398740767,
+                    "FN": 971,
+                    "FP": 6862,
+                    "IoU": 0.7707839522429989,
+                    "TN": 63142531,
+                    "TP": 26340,
+                    "n_pred": 33202,
+                    "n_ref": 27311
+                }
+            },
+            "prediction_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_results/Dataset015_lungTumor/nnUNetTrainer__nnUNetResEncUNetMPlans__3d_fullres/fold_3/validation/lung_011.nii.gz",
+            "reference_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_preprocessed/Dataset015_lungTumor/gt_segmentations/lung_011.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.952458387807616,
+                    "FN": 6196,
+                    "FP": 4095,
+                    "IoU": 0.9092320311879835,
+                    "TN": 151930143,
+                    "TP": 103086,
+                    "n_pred": 107181,
+                    "n_ref": 109282
+                }
+            },
+            "prediction_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_results/Dataset015_lungTumor/nnUNetTrainer__nnUNetResEncUNetMPlans__3d_fullres/fold_3/validation/lung_018.nii.gz",
+            "reference_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_preprocessed/Dataset015_lungTumor/gt_segmentations/lung_018.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.850697489039458,
+                    "FN": 750,
+                    "FP": 1123,
+                    "IoU": 0.7401858787626577,
+                    "TN": 82306007,
+                    "TP": 5336,
+                    "n_pred": 6459,
+                    "n_ref": 6086
+                }
+            },
+            "prediction_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_results/Dataset015_lungTumor/nnUNetTrainer__nnUNetResEncUNetMPlans__3d_fullres/fold_3/validation/lung_021.nii.gz",
+            "reference_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_preprocessed/Dataset015_lungTumor/gt_segmentations/lung_021.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7114793780839773,
+                    "FN": 2499,
+                    "FP": 600,
+                    "IoU": 0.5521676300578034,
+                    "TN": 78636280,
+                    "TP": 3821,
+                    "n_pred": 4421,
+                    "n_ref": 6320
+                }
+            },
+            "prediction_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_results/Dataset015_lungTumor/nnUNetTrainer__nnUNetResEncUNetMPlans__3d_fullres/fold_3/validation/lung_033.nii.gz",
+            "reference_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_preprocessed/Dataset015_lungTumor/gt_segmentations/lung_033.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8722958827634334,
+                    "FN": 131,
+                    "FP": 52,
+                    "IoU": 0.7735148514851485,
+                    "TN": 32767192,
+                    "TP": 625,
+                    "n_pred": 677,
+                    "n_ref": 756
+                }
+            },
+            "prediction_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_results/Dataset015_lungTumor/nnUNetTrainer__nnUNetResEncUNetMPlans__3d_fullres/fold_3/validation/lung_038.nii.gz",
+            "reference_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_preprocessed/Dataset015_lungTumor/gt_segmentations/lung_038.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8803725696832779,
+                    "FN": 5879,
+                    "FP": 13078,
+                    "IoU": 0.7863085039228064,
+                    "TN": 62825848,
+                    "TP": 69755,
+                    "n_pred": 82833,
+                    "n_ref": 75634
+                }
+            },
+            "prediction_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_results/Dataset015_lungTumor/nnUNetTrainer__nnUNetResEncUNetMPlans__3d_fullres/fold_3/validation/lung_042.nii.gz",
+            "reference_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_preprocessed/Dataset015_lungTumor/gt_segmentations/lung_042.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7505827505827506,
+                    "FN": 274,
+                    "FP": 261,
+                    "IoU": 0.6007462686567164,
+                    "TN": 63437508,
+                    "TP": 805,
+                    "n_pred": 1066,
+                    "n_ref": 1079
+                }
+            },
+            "prediction_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_results/Dataset015_lungTumor/nnUNetTrainer__nnUNetResEncUNetMPlans__3d_fullres/fold_3/validation/lung_070.nii.gz",
+            "reference_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_preprocessed/Dataset015_lungTumor/gt_segmentations/lung_070.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6485303702784071,
+                    "FN": 3430,
+                    "FP": 19218,
+                    "IoU": 0.4798704728659027,
+                    "TN": 129193449,
+                    "TP": 20895,
+                    "n_pred": 40113,
+                    "n_ref": 24325
+                }
+            },
+            "prediction_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_results/Dataset015_lungTumor/nnUNetTrainer__nnUNetResEncUNetMPlans__3d_fullres/fold_3/validation/lung_074.nii.gz",
+            "reference_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_preprocessed/Dataset015_lungTumor/gt_segmentations/lung_074.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.748569271983716,
+                    "FN": 10580,
+                    "FP": 30059,
+                    "IoU": 0.5981707618529688,
+                    "TN": 96630001,
+                    "TP": 60496,
+                    "n_pred": 90555,
+                    "n_ref": 71076
+                }
+            },
+            "prediction_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_results/Dataset015_lungTumor/nnUNetTrainer__nnUNetResEncUNetMPlans__3d_fullres/fold_3/validation/lung_075.nii.gz",
+            "reference_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_preprocessed/Dataset015_lungTumor/gt_segmentations/lung_075.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 4883,
+                    "FP": 3489,
+                    "IoU": 0.0,
+                    "TN": 117956428,
+                    "TP": 0,
+                    "n_pred": 3489,
+                    "n_ref": 4883
+                }
+            },
+            "prediction_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_results/Dataset015_lungTumor/nnUNetTrainer__nnUNetResEncUNetMPlans__3d_fullres/fold_3/validation/lung_081.nii.gz",
+            "reference_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_preprocessed/Dataset015_lungTumor/gt_segmentations/lung_081.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7584761210353628,
+                    "FN": 4884,
+                    "FP": 416,
+                    "IoU": 0.6109235060930848,
+                    "TN": 69978826,
+                    "TP": 8322,
+                    "n_pred": 8738,
+                    "n_ref": 13206
+                }
+            },
+            "prediction_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_results/Dataset015_lungTumor/nnUNetTrainer__nnUNetResEncUNetMPlans__3d_fullres/fold_3/validation/lung_084.nii.gz",
+            "reference_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_preprocessed/Dataset015_lungTumor/gt_segmentations/lung_084.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8074191002367798,
+                    "FN": 921,
+                    "FP": 55,
+                    "IoU": 0.6770350761085374,
+                    "TN": 59765810,
+                    "TP": 2046,
+                    "n_pred": 2101,
+                    "n_ref": 2967
+                }
+            },
+            "prediction_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_results/Dataset015_lungTumor/nnUNetTrainer__nnUNetResEncUNetMPlans__3d_fullres/fold_3/validation/lung_095.nii.gz",
+            "reference_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_preprocessed/Dataset015_lungTumor/gt_segmentations/lung_095.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8377013246926522,
+                    "FN": 1306,
+                    "FP": 397,
+                    "IoU": 0.7207281075762545,
+                    "TN": 60549166,
+                    "TP": 4395,
+                    "n_pred": 4792,
+                    "n_ref": 5701
+                }
+            },
+            "prediction_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_results/Dataset015_lungTumor/nnUNetTrainer__nnUNetResEncUNetMPlans__3d_fullres/fold_3/validation/lung_097.nii.gz",
+            "reference_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_preprocessed/Dataset015_lungTumor/gt_segmentations/lung_097.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9001925671692627,
+                    "FN": 3141,
+                    "FP": 4478,
+                    "IoU": 0.818500166754014,
+                    "TN": 55532550,
+                    "TP": 34359,
+                    "n_pred": 38837,
+                    "n_ref": 37500
+                }
+            },
+            "prediction_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_results/Dataset015_lungTumor/nnUNetTrainer__nnUNetResEncUNetMPlans__3d_fullres/fold_3/validation/lung_098.nii.gz",
+            "reference_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_preprocessed/Dataset015_lungTumor/gt_segmentations/lung_098.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8206530816769667,
+                    "FN": 1737,
+                    "FP": 6853,
+                    "IoU": 0.6958538398895302,
+                    "TN": 79925677,
+                    "TP": 19653,
+                    "n_pred": 26506,
+                    "n_ref": 21390
+                }
+            },
+            "prediction_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_results/Dataset015_lungTumor/nnUNetTrainer__nnUNetResEncUNetMPlans__3d_fullres/fold_3/validation/lung_101.nii.gz",
+            "reference_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_preprocessed/Dataset015_lungTumor/gt_segmentations/lung_101.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7897374931722521,
+                    "FN": 1227,
+                    "FP": 11861,
+                    "IoU": 0.6525340483712534,
+                    "TN": 66546909,
+                    "TP": 24579,
+                    "n_pred": 36440,
+                    "n_ref": 25806
+                }
+            },
+            "prediction_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_results/Dataset015_lungTumor/nnUNetTrainer__nnUNetResEncUNetMPlans__3d_fullres/fold_3/validation/lung_102.nii.gz",
+            "reference_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_preprocessed/Dataset015_lungTumor/gt_segmentations/lung_102.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8789125961226038,
+                    "FN": 1707,
+                    "FP": 529,
+                    "IoU": 0.783982223939716,
+                    "TN": 61331345,
+                    "TP": 8115,
+                    "n_pred": 8644,
+                    "n_ref": 9822
+                }
+            },
+            "prediction_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_results/Dataset015_lungTumor/nnUNetTrainer__nnUNetResEncUNetMPlans__3d_fullres/fold_3/validation/lung_121.nii.gz",
+            "reference_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_preprocessed/Dataset015_lungTumor/gt_segmentations/lung_121.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6700760612824236,
+                    "FN": 15109,
+                    "FP": 116,
+                    "IoU": 0.5038454018119012,
+                    "TN": 76515362,
+                    "TP": 15461,
+                    "n_pred": 15577,
+                    "n_ref": 30570
+                }
+            },
+            "prediction_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_results/Dataset015_lungTumor/nnUNetTrainer__nnUNetResEncUNetMPlans__3d_fullres/fold_3/validation/lung_129.nii.gz",
+            "reference_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_preprocessed/Dataset015_lungTumor/gt_segmentations/lung_129.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7925247095176617,
+                    "FN": 7301,
+                    "FP": 2502,
+                    "IoU": 0.6563485942648811,
+                    "TN": 41128082,
+                    "TP": 18723,
+                    "n_pred": 21225,
+                    "n_ref": 26024
+                }
+            },
+            "prediction_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_results/Dataset015_lungTumor/nnUNetTrainer__nnUNetResEncUNetMPlans__3d_fullres/fold_3/validation/lung_130.nii.gz",
+            "reference_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_preprocessed/Dataset015_lungTumor/gt_segmentations/lung_130.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8801959748306835,
+                    "FN": 8735,
+                    "FP": 3736,
+                    "IoU": 0.7860268002676595,
+                    "TN": 90643541,
+                    "TP": 45812,
+                    "n_pred": 49548,
+                    "n_ref": 54547
+                }
+            },
+            "prediction_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_results/Dataset015_lungTumor/nnUNetTrainer__nnUNetResEncUNetMPlans__3d_fullres/fold_3/validation/lung_133.nii.gz",
+            "reference_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_preprocessed/Dataset015_lungTumor/gt_segmentations/lung_133.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7209440529756346,
+                    "FN": 12489,
+                    "FP": 659,
+                    "IoU": 0.5636532589937607,
+                    "TN": 69438028,
+                    "TP": 16984,
+                    "n_pred": 17643,
+                    "n_ref": 29473
+                }
+            },
+            "prediction_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_results/Dataset015_lungTumor/nnUNetTrainer__nnUNetResEncUNetMPlans__3d_fullres/fold_3/validation/lung_134.nii.gz",
+            "reference_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_preprocessed/Dataset015_lungTumor/gt_segmentations/lung_134.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.3826658928225962,
+                    "FN": 25438,
+                    "FP": 90,
+                    "IoU": 0.23660287081339712,
+                    "TN": 81231200,
+                    "TP": 7912,
+                    "n_pred": 8002,
+                    "n_ref": 33350
+                }
+            },
+            "prediction_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_results/Dataset015_lungTumor/nnUNetTrainer__nnUNetResEncUNetMPlans__3d_fullres/fold_3/validation/lung_137.nii.gz",
+            "reference_file": "/mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_preprocessed/Dataset015_lungTumor/gt_segmentations/lung_137.nii.gz"
+        }
+    ]
+}

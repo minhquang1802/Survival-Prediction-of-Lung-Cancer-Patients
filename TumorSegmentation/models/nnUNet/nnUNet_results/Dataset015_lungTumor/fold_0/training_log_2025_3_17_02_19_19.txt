@@ -1,0 +1,74 @@
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+ 
+2025-03-17 02:19:23.936980: Using torch.compile... 
+2025-03-17 02:19:29.128711: do_dummy_2d_data_aug: False 
+2025-03-17 02:19:29.129439: Using splits from existing split file: /mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_preprocessed/Dataset015_lungTumor/splits_final.json 
+2025-03-17 02:19:29.129638: The split file contains 5 splits. 
+2025-03-17 02:19:29.129681: Desired fold for training: 0 
+2025-03-17 02:19:29.129719: This split has 92 training and 23 validation cases. 
+
+This is the configuration used by this training:
+Configuration name: 3d_fullres
+ {'data_identifier': 'nnUNetPlans_3d_fullres', 'preprocessor_name': 'DefaultPreprocessor', 'batch_size': 2, 'patch_size': [80, 192, 160], 'median_image_size_in_voxels': [251.0, 512.0, 512.0], 'spacing': [1.25, 0.78125, 0.78125], 'normalization_schemes': ['CTNormalization'], 'use_mask_for_norm': [False], 'resampling_fn_data': 'resample_data_or_seg_to_shape', 'resampling_fn_seg': 'resample_data_or_seg_to_shape', 'resampling_fn_data_kwargs': {'is_seg': False, 'order': 3, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_seg_kwargs': {'is_seg': True, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_probabilities': 'resample_data_or_seg_to_shape', 'resampling_fn_probabilities_kwargs': {'is_seg': False, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'architecture': {'network_class_name': 'dynamic_network_architectures.architectures.unet.ResidualEncoderUNet', 'arch_kwargs': {'n_stages': 6, 'features_per_stage': [32, 64, 128, 256, 320, 320], 'conv_op': 'torch.nn.modules.conv.Conv3d', 'kernel_sizes': [[3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3]], 'strides': [[1, 1, 1], [2, 2, 2], [2, 2, 2], [2, 2, 2], [2, 2, 2], [1, 2, 2]], 'n_blocks_per_stage': [1, 3, 4, 6, 6, 6], 'n_conv_per_stage_decoder': [1, 1, 1, 1, 1], 'conv_bias': True, 'norm_op': 'torch.nn.modules.instancenorm.InstanceNorm3d', 'norm_op_kwargs': {'eps': 1e-05, 'affine': True}, 'dropout_op': None, 'dropout_op_kwargs': None, 'nonlin': 'torch.nn.LeakyReLU', 'nonlin_kwargs': {'inplace': True}}, '_kw_requires_import': ['conv_op', 'norm_op', 'dropout_op', 'nonlin']}, 'batch_dice': True} 
+ 
+These are the global plan.json settings:
+ {'dataset_name': 'Dataset015_lungTumor', 'plans_name': 'nnUNetResEncUNetMPlans', 'original_median_spacing_after_transp': [1.25, 0.78125, 0.78125], 'original_median_shape_after_transp': [251, 512, 512], 'image_reader_writer': 'SimpleITKIO', 'transpose_forward': [0, 1, 2], 'transpose_backward': [0, 1, 2], 'experiment_planner_used': 'nnUNetPlannerResEncM', 'label_manager': 'LabelManager', 'foreground_intensity_properties_per_channel': {'0': {'max': 2750.0, 'mean': -292.26348876953125, 'median': -205.0, 'min': -1270.0, 'percentile_00_5': -1024.0, 'percentile_99_5': 308.0, 'std': 352.5594787597656}}} 
+ 
+2025-03-17 02:19:30.924362: Unable to plot network architecture: nnUNet_compile is enabled! 
+2025-03-17 02:19:32.846996: Training done. 
+2025-03-17 02:19:32.968843: Using splits from existing split file: /mrhung_nguyen_minh_quang_108/workspace/train/nnUNet_preprocessed/Dataset015_lungTumor/splits_final.json 
+2025-03-17 02:19:32.969084: The split file contains 5 splits. 
+2025-03-17 02:19:32.969130: Desired fold for training: 0 
+2025-03-17 02:19:32.969166: This split has 92 training and 23 validation cases. 
+2025-03-17 02:19:32.969352: predicting lung_006 
+2025-03-17 02:19:33.989018: lung_006, shape torch.Size([1, 284, 640, 640]), rank 0 
+2025-03-17 02:25:46.967469: predicting lung_015 
+2025-03-17 02:25:47.476639: lung_015, shape torch.Size([1, 294, 486, 486]), rank 0 
+2025-03-17 02:30:12.251829: predicting lung_022 
+2025-03-17 02:30:12.687630: lung_022, shape torch.Size([1, 188, 563, 563]), rank 0 
+2025-03-17 02:33:09.118419: predicting lung_027 
+2025-03-17 02:33:09.722398: lung_027, shape torch.Size([1, 227, 512, 512]), rank 0 
+2025-03-17 02:36:18.935519: predicting lung_034 
+2025-03-17 02:36:19.447012: lung_034, shape torch.Size([1, 260, 538, 538]), rank 0 
+2025-03-17 02:40:06.525349: predicting lung_051 
+2025-03-17 02:40:06.970119: lung_051, shape torch.Size([1, 224, 548, 548]), rank 0 
+2025-03-17 02:43:16.278763: predicting lung_054 
+2025-03-17 02:43:16.965570: lung_054, shape torch.Size([1, 252, 614, 614]), rank 0 
+2025-03-17 02:48:34.887659: predicting lung_065 
+2025-03-17 02:48:35.253292: lung_065, shape torch.Size([1, 248, 461, 461]), rank 0 
+2025-03-17 02:51:07.005959: predicting lung_066 
+2025-03-17 02:51:07.306464: lung_066, shape torch.Size([1, 256, 476, 476]), rank 0 
+2025-03-17 02:53:38.825508: predicting lung_068 
+2025-03-17 02:53:39.457846: lung_068, shape torch.Size([1, 300, 527, 527]), rank 0 
+2025-03-17 02:58:04.474810: predicting lung_073 
+2025-03-17 02:58:05.072910: lung_073, shape torch.Size([1, 216, 614, 614]), rank 0 
+2025-03-17 03:02:29.811444: predicting lung_078 
+2025-03-17 03:02:30.127928: lung_078, shape torch.Size([1, 217, 435, 435]), rank 0 
+2025-03-17 03:04:36.337586: predicting lung_083 
+2025-03-17 03:04:36.868514: lung_083, shape torch.Size([1, 268, 512, 512]), rank 0 
+2025-03-17 03:08:24.228794: predicting lung_086 
+2025-03-17 03:08:24.892424: lung_086, shape torch.Size([1, 241, 512, 512]), rank 0 
+2025-03-17 03:12:11.927772: predicting lung_089 
+2025-03-17 03:12:12.298100: lung_089, shape torch.Size([1, 236, 448, 448]), rank 0 
+2025-03-17 03:14:18.615705: predicting lung_090 
+2025-03-17 03:14:18.978865: lung_090, shape torch.Size([1, 218, 489, 489]), rank 0 
+2025-03-17 03:17:28.319578: predicting lung_109 
+2025-03-17 03:17:29.027443: lung_109, shape torch.Size([1, 280, 512, 512]), rank 0 
+2025-03-17 03:21:16.056065: predicting lung_111 
+2025-03-17 03:21:16.694126: lung_111, shape torch.Size([1, 233, 602, 602]), rank 0 
+2025-03-17 03:25:41.723595: predicting lung_112 
+2025-03-17 03:25:42.452466: lung_112, shape torch.Size([1, 250, 640, 640]), rank 0 
+2025-03-17 03:31:00.363796: predicting lung_116 
+2025-03-17 03:31:00.973039: lung_116, shape torch.Size([1, 223, 512, 512]), rank 0 
+2025-03-17 03:34:10.468996: predicting lung_122 
+2025-03-17 03:34:11.047859: lung_122, shape torch.Size([1, 237, 563, 563]), rank 0 
+2025-03-17 03:37:51.699806: predicting lung_123 
+2025-03-17 03:37:52.302483: lung_123, shape torch.Size([1, 222, 607, 607]), rank 0 
+2025-03-17 03:42:17.385201: predicting lung_135 
+2025-03-17 03:42:18.159664: lung_135, shape torch.Size([1, 273, 461, 461]), rank 0 
+2025-03-17 03:45:23.715862: Validation complete 
+2025-03-17 03:45:23.716188: Mean Validation Dice:  0.7224250040990995 

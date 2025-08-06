@@ -1,0 +1,156 @@
+Thông tin về dữ liệu:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 144 entries, 0 to 143
+Data columns (total 28 columns):
+ #   Column                                             Non-Null Count  Dtype
+---  ------                                             --------------  -----
+ 0   Age                                                144 non-null    int64
+ 1   Weight (lbs)                                       144 non-null    float64
+ 2   Gender                                             144 non-null    int64
+ 3   Ethnicity                                          144 non-null    int64
+ 4   Smoking status                                     144 non-null    int64
+ 5   %GG                                                144 non-null    int64
+ 6   Tumor Location (choice=RUL)                        144 non-null    int64
+ 7   Tumor Location (choice=RML)                        144 non-null    int64
+ 8   Tumor Location (choice=RLL)                        144 non-null    int64
+ 9   Tumor Location (choice=LUL)                        144 non-null    int64
+ 10  Tumor Location (choice=LLL)                        144 non-null    int64
+ 11  Histology                                          144 non-null    int64
+ 12  Pathological T stage                               144 non-null    int64
+ 13  Pathological N stage                               144 non-null    int64
+ 14  Pathological M stage                               144 non-null    int64
+ 15  Histopathological Grade                            144 non-null    int64
+ 16  Lymphovascular invasion                            144 non-null    int64
+ 17  Pleural invasion (elastic, visceral, or parietal)  144 non-null    int64
+ 18  EGFR mutation status                               144 non-null    int64
+ 19  KRAS mutation status                               144 non-null    int64
+ 20  ALK translocation status                           144 non-null    int64
+ 21  Adjuvant Treatment                                 144 non-null    int64
+ 22  Chemotherapy                                       144 non-null    int64
+ 23  Radiation                                          144 non-null    int64
+ 24  Recurrence                                         144 non-null    int64
+ 25  Days between CT and surgery                        144 non-null    int64
+ 26  Time to Event                                      144 non-null    int64
+ 27  Event                                              144 non-null    int64
+dtypes: float64(1), int64(27)
+memory usage: 31.6 KB
+None
+
+Kiểm tra dữ liệu thiếu:
+Age                                                  0
+Weight (lbs)                                         0
+Gender                                               0
+Ethnicity                                            0
+Smoking status                                       0
+%GG                                                  0
+Tumor Location (choice=RUL)                          0
+Tumor Location (choice=RML)                          0
+Tumor Location (choice=RLL)                          0
+Tumor Location (choice=LUL)                          0
+Tumor Location (choice=LLL)                          0
+Histology                                            0
+Pathological T stage                                 0
+Pathological N stage                                 0
+Pathological M stage                                 0
+Histopathological Grade                              0
+Lymphovascular invasion                              0
+Pleural invasion (elastic, visceral, or parietal)    0
+EGFR mutation status                                 0
+KRAS mutation status                                 0
+ALK translocation status                             0
+Adjuvant Treatment                                   0
+Chemotherapy                                         0
+Radiation                                            0
+Recurrence                                           0
+Days between CT and surgery                          0
+Time to Event                                        0
+Event                                                0
+dtype: int64
+
+Thống kê mô tả:
+              Age  Weight (lbs)      Gender   Ethnicity  Smoking status         %GG  ...  Chemotherapy   Radiation  Recurrence  Days between CT and surgery  Time to Event       Event
+count  144.000000    144.000000  144.000000  144.000000      144.000000  144.000000  ...    144.000000  144.000000  144.000000                   144.000000     144.000000  144.000000     
+mean    69.215278    171.761211    0.750000    1.840278        0.944444    1.576389  ...      0.243056    0.083333    0.277778                    57.312500    1359.152778    0.354167     
+std      8.810486     39.638193    0.434524    0.644104        0.600440    2.182511  ...      0.430426    0.277350    0.449467                    72.932047     855.253083    0.479929     
+min     43.000000     80.000000    0.000000    0.000000        0.000000    0.000000  ...      0.000000    0.000000    0.000000                     1.000000       6.000000    0.000000     
+25%     64.000000    145.530000    0.750000    2.000000        1.000000    0.000000  ...      0.000000    0.000000    0.000000                    21.750000     621.000000    0.000000     
+50%     69.000000    173.500000    1.000000    2.000000        1.000000    0.000000  ...      0.000000    0.000000    0.000000                    44.000000    1389.500000    0.000000     
+75%     76.000000    195.862500    1.000000    2.000000        1.000000    4.000000  ...      0.000000    0.000000    1.000000                    78.250000    1980.500000    1.000000     
+max     87.000000    317.520000    1.000000    4.000000        2.000000    5.000000  ...      1.000000    1.000000    1.000000                   735.000000    3500.000000    1.000000     
+
+[8 rows x 28 columns]
+
+Các tham số của mô hình Weibull:
+                coef     se(coef)  coef lower 95%  coef upper 95%  cmp to         z         p   -log2(p)
+lambda_  4827.663209  1094.867864     2681.761627     6973.564790     1.0  4.408444  0.000010  16.551447
+rho_        0.785093     0.099797        0.589495        0.980691     1.0 -2.153449  0.031283   4.998457
+
+Các đặc trưng quan trọng nhất: ['Age', 'Smoking status', 'Pathological N stage', 'Lymphovascular invasion', 'Days between CT and surgery']
+
+Kết quả mô hình Cox PH:
+                                 coef  exp(coef)  se(coef)  coef lower 95%  coef upper 95%  exp(coef) lower 95%  exp(coef) upper 95%  cmp to         z         p   -log2(p)
+covariate
+Age                          0.333436   1.395756  0.158305        0.023164        0.643709             1.023434             1.903527     0.0  2.106289  0.035179   4.829131
+Smoking status              -0.229160   0.795201  0.145399       -0.514136        0.055817             0.598017             1.057404     0.0 -1.576076  0.115008   3.120190
+Pathological N stage         0.476984   1.611208  0.113156        0.255202        0.698766             1.290723             2.011269     0.0  4.215276  0.000025  15.290759
+Lymphovascular invasion      0.154907   1.167550  0.123124       -0.086412        0.396227             0.917216             1.486206     0.0  1.258138  0.208342   2.262975
+Days between CT and surgery -0.280786   0.755190  0.249149       -0.769109        0.207537             0.463426             1.230644     0.0 -1.126979  0.259751   1.944798
+
+Thời gian sống còn trung vị (Weibull): 3026.85
+Thời gian sống còn trung vị (Kaplan-Meier): inf
+
+Xác suất sống sót theo mô hình Weibull:
+Tại thời điểm 1: 0.9987
+Tại thời điểm 3: 0.9970
+Tại thời điểm 5: 0.9955
+Tại thời điểm 10: 0.9922
+
+Chỉ số concordance: 0.5000
+
+Thông số phân phối Weibull:
+Tham số hình dạng (shape): 0.7851
+Tham số tỷ lệ (scale): 4827.6632
+Tham số hình dạng < 1: Nguy cơ giảm theo thời gian
+
+Kết quả mô hình Weibull AFT:
+                                                               coef    exp(coef)      se(coef)  coef lower 95%  ...  cmp to             z              p      -log2(p)
+param   covariate                                                                                               ...
+lambda_ %GG                                                0.460108     1.584246  2.186464e-01    3.156932e-02  ...     0.0  2.104349e+00   3.534800e-02  4.822228e+00
+        ALK translocation status                           0.121241     1.128898  1.736998e-01   -2.192039e-01  ...     0.0  6.979944e-01   4.851807e-01  1.043406e+00
+        Adjuvant Treatment                                 0.230340     1.259028  8.190700e+14   -1.605348e+15  ...     0.0  2.812211e-16   1.000000e+00  3.203427e-16
+        Age                                               -0.457781     0.632686  2.006074e-01   -8.509647e-01  ...     0.0 -2.281977e+00   2.249071e-02  5.474527e+00
+        Chemotherapy                                       0.230340     1.259028  8.190700e+14   -1.605348e+15  ...     0.0  2.812211e-16   1.000000e+00  3.203427e-16
+        Days between CT and surgery                        0.166513     1.181179  2.635147e-01   -3.499665e-01  ...     0.0  6.318919e-01   5.274575e-01  9.228731e-01
+        EGFR mutation status                              -0.292137     0.746666  2.152022e-01   -7.139252e-01  ...     0.0 -1.357499e+00   1.746228e-01  2.517686e+00
+        Ethnicity                                          0.057372     1.059050  1.658389e-01   -2.676665e-01  ...     0.0  3.459492e-01   7.293809e-01  4.552556e-01
+        Gender                                            -0.257248     0.773176  2.334947e-01   -7.148897e-01  ...     0.0 -1.101731e+00   2.705785e-01  1.885881e+00
+        Histology                                         -0.017696     0.982459  1.614302e-01   -3.340938e-01  ...     0.0 -1.096224e-01   9.127088e-01  1.317734e-01
+        Histopathological Grade                            0.085799     1.089588  1.810628e-01   -2.690773e-01  ...     0.0  4.738647e-01   6.355964e-01  6.538171e-01
+        KRAS mutation status                               0.013620     1.013713  1.893950e-01   -3.575871e-01  ...     0.0  7.191429e-02   9.426701e-01  8.517510e-02
+        Lymphovascular invasion                           -0.132507     0.875897  1.527835e-01   -4.319568e-01  ...     0.0 -8.672835e-01   3.857867e-01  1.374125e+00
+        Pathological M stage                              -0.163077     0.849526  1.343655e-01   -4.264282e-01  ...     0.0 -1.213680e+00   2.248701e-01  2.152837e+00
+        Pathological N stage                              -0.677618     0.507825  1.911477e-01   -1.052261e+00  ...     0.0 -3.544998e+00   3.926156e-04  1.131459e+01
+        Pathological T stage                              -0.040981     0.959847  1.985975e-01   -4.302254e-01  ...     0.0 -2.063545e-01   8.365140e-01  2.575383e-01
+        Pleural invasion (elastic, visceral, or parietal) -0.247224     0.780966  1.885987e-01   -6.168703e-01  ...     0.0 -1.310845e+00   1.899101e-01  2.396611e+00
+        Radiation                                         -0.174692     0.839716  1.756352e-01   -5.189303e-01  ...     0.0 -9.946279e-01   3.199173e-01  1.644229e+00
+        Recurrence                                        -0.336184     0.714491  1.808976e-01   -6.907372e-01  ...     0.0 -1.858424e+00   6.310889e-02  3.986013e+00
+        Smoking status                                     0.105574     1.111348  1.980403e-01   -2.825783e-01  ...     0.0  5.330916e-01   5.939702e-01  7.515375e-01
+        Tumor Location (choice=LLL)                        0.169483     1.184692  1.864874e-01   -1.960254e-01  ...     0.0  9.088185e-01   3.634459e-01  1.460187e+00
+        Tumor Location (choice=LUL)                        0.050343     1.051631  2.606730e-01   -4.605670e-01  ...     0.0  1.931259e-01   8.468604e-01  2.398039e-01
+        Tumor Location (choice=RLL)                        0.009742     1.009790  2.119926e-01   -4.057557e-01  ...     0.0  4.595515e-02   9.633460e-01  5.387404e-02
+        Tumor Location (choice=RML)                        0.150614     1.162548  5.145985e-02    4.975443e-02  ...     0.0  2.926823e+00   3.424433e-03  8.189919e+00
+        Tumor Location (choice=RUL)                        0.007713     1.007743  2.279551e-01   -4.390709e-01  ...     0.0  3.383547e-02   9.730083e-01  3.947591e-02
+        Weight (lbs)                                       0.146148     1.157368  2.135959e-01   -2.724921e-01  ...     0.0  6.842274e-01   4.938316e-01  1.017909e+00
+        Intercept                                          8.636964  5636.194698  2.538034e-01    8.139519e+00  ...     0.0  3.403013e+01  7.986439e-254  8.407722e+02
+rho_    Intercept                                         -0.048358     0.952793  1.245539e-01   -2.924791e-01  ...     0.0 -3.882490e-01   6.978318e-01  5.190488e-01
+
+[28 rows x 11 columns]
+
+======= TÓM TẮT KẾT QUẢ PHÂN TÍCH SỐNG CÒN =======
+Số mẫu: 144
+Số sự kiện xảy ra: 51
+Tỷ lệ sự kiện: 35.42%
+Thời gian sống còn trung vị: 3026.85
+Xác suất sống sót sau 5 đơn vị thời gian: 0.9955
+Chỉ số concordance: 0.5000
+=================================================

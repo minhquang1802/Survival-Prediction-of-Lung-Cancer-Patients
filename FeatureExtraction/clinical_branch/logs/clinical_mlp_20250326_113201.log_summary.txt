@@ -1,0 +1,41 @@
+Training Summary
+==================================================
+
+Training Losses:
+Epoch 1: Train Loss = 1.324464, Val Loss = 1.042411
+Epoch 2: Train Loss = 1.051316, Val Loss = 0.968681
+Epoch 3: Train Loss = 0.927766, Val Loss = 0.797610
+Epoch 4: Train Loss = 0.793602, Val Loss = 0.678964
+Epoch 5: Train Loss = 0.785801, Val Loss = 0.620370
+Epoch 6: Train Loss = 0.722799, Val Loss = 0.611041
+Epoch 7: Train Loss = 0.670112, Val Loss = 0.613696
+Epoch 8: Train Loss = 0.622949, Val Loss = 0.594610
+Epoch 9: Train Loss = 0.638737, Val Loss = 0.590469
+Epoch 10: Train Loss = 0.618120, Val Loss = 0.563594
+Epoch 11: Train Loss = 0.591073, Val Loss = 0.564786
+Epoch 12: Train Loss = 0.582533, Val Loss = 0.575402
+Epoch 13: Train Loss = 0.571435, Val Loss = 0.561980
+Epoch 14: Train Loss = 0.627108, Val Loss = 0.548483
+Epoch 15: Train Loss = 0.582706, Val Loss = 0.535322
+Epoch 16: Train Loss = 0.562364, Val Loss = 0.528077
+Epoch 17: Train Loss = 0.551060, Val Loss = 0.540865
+Epoch 18: Train Loss = 0.581800, Val Loss = 0.583517
+Epoch 19: Train Loss = 0.563697, Val Loss = 0.612331
+Epoch 20: Train Loss = 0.612359, Val Loss = 0.573859
+Epoch 21: Train Loss = 0.580903, Val Loss = 0.566651
+Epoch 22: Train Loss = 0.580840, Val Loss = 0.550523
+Epoch 23: Train Loss = 0.620470, Val Loss = 0.549764
+Epoch 24: Train Loss = 0.563314, Val Loss = 0.543261
+Epoch 25: Train Loss = 0.543636, Val Loss = 0.539321
+Epoch 26: Train Loss = 0.560920, Val Loss = 0.550626
+Epoch 27: Train Loss = 0.572058, Val Loss = 0.548784
+Epoch 28: Train Loss = 0.547044, Val Loss = 0.548091
+Epoch 29: Train Loss = 0.548621, Val Loss = 0.553093
+Epoch 30: Train Loss = 0.549290, Val Loss = 0.541405
+Epoch 31: Train Loss = 0.535261, Val Loss = 0.531731
+
+Feature Quality Metrics:
+avg_pairwise_distance: 25.285251232211046
+std_pairwise_distance: 7.221187412840021
+silhouette_score: 0.10271847248077393
+umap_visualization: logs/umap_feature_visualization.png

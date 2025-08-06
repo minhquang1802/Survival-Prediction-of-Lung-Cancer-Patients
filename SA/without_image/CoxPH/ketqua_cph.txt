@@ -1,0 +1,243 @@
+COX PROPORTIONAL HAZARDS MODEL RESULT
+==================================================
+
+BẢNG HỆ SỐ:
+                                                           coef  exp(coef)  \
+covariate                                                                    
+Age                                                2.275879e-02   1.023020   
+Weight (lbs)                                       6.452622e-10   1.000000   
+Gender                                             4.580957e-07   1.000000   
+Ethnicity                                         -5.882891e-08   1.000000   
+Smoking status                                    -1.727267e-01   0.841367   
+%GG                                               -1.021631e-01   0.902882   
+Tumor Location (choice=RUL)                        1.958591e-02   1.019779   
+Tumor Location (choice=RML)                       -2.602247e-01   0.770878   
+Tumor Location (choice=RLL)                       -4.820974e-07   1.000000   
+Tumor Location (choice=LUL)                       -2.894186e-08   1.000000   
+Tumor Location (choice=LLL)                        7.834996e-08   1.000000   
+Histology                                         -2.937879e-07   1.000000   
+Pathological T stage                               3.510414e-08   1.000000   
+Pathological N stage                               5.082106e-01   1.662314   
+Pathological M stage                               7.751044e-02   1.080594   
+Histopathological Grade                           -1.083901e-07   1.000000   
+Lymphovascular invasion                            7.304565e-02   1.075780   
+Pleural invasion (elastic, visceral, or parietal)  3.666560e-07   1.000000   
+EGFR mutation status                               2.875520e-07   1.000000   
+KRAS mutation status                               1.350297e-07   1.000000   
+ALK translocation status                           3.389209e-07   1.000000   
+Adjuvant Treatment                                -2.094161e-07   1.000000   
+Chemotherapy                                      -2.094161e-07   1.000000   
+Radiation                                         -1.431020e-07   1.000000   
+Recurrence                                         4.100966e-01   1.506963   
+Days between CT and surgery                       -7.081151e-05   0.999929   
+
+                                                   se(coef)  coef lower 95%  \
+covariate                                                                     
+Age                                                0.017636       -0.011806   
+Weight (lbs)                                       0.000004       -0.000008   
+Gender                                             0.000827       -0.001621   
+Ethnicity                                          0.000251       -0.000492   
+Smoking status                                     0.258491       -0.679360   
+%GG                                                0.075307       -0.249763   
+Tumor Location (choice=RUL)                        0.344945       -0.656494   
+Tumor Location (choice=RML)                        0.539841       -1.318293   
+Tumor Location (choice=RLL)                        0.000834       -0.001635   
+Tumor Location (choice=LUL)                        0.000346       -0.000678   
+Tumor Location (choice=LLL)                        0.000436       -0.000853   
+Histology                                          0.000565       -0.001107   
+Pathological T stage                               0.000099       -0.000194   
+Pathological N stage                               0.232904        0.051727   
+Pathological M stage                               0.441750       -0.788303   
+Histopathological Grade                            0.000196       -0.000384   
+Lymphovascular invasion                            0.221735       -0.361547   
+Pleural invasion (elastic, visceral, or parietal)  0.000635       -0.001245   
+EGFR mutation status                               0.000545       -0.001067   
+KRAS mutation status                               0.000252       -0.000495   
+ALK translocation status                           0.000587       -0.001150   
+Adjuvant Treatment                                 0.000437       -0.000857   
+Chemotherapy                                       0.000437       -0.000857   
+Radiation                                          0.000562       -0.001101   
+Recurrence                                         0.344131       -0.264387   
+Days between CT and surgery                        0.001987       -0.003966   
+
+                                                   coef upper 95%  \
+covariate                                                           
+Age                                                      0.057324   
+Weight (lbs)                                             0.000008   
+Gender                                                   0.001622   
+Ethnicity                                                0.000491   
+Smoking status                                           0.333906   
+%GG                                                      0.045437   
+Tumor Location (choice=RUL)                              0.695666   
+Tumor Location (choice=RML)                              0.797844   
+Tumor Location (choice=RLL)                              0.001634   
+Tumor Location (choice=LUL)                              0.000678   
+Tumor Location (choice=LLL)                              0.000854   
+Histology                                                0.001107   
+Pathological T stage                                     0.000194   
+Pathological N stage                                     0.964694   
+Pathological M stage                                     0.943324   
+Histopathological Grade                                  0.000384   
+Lymphovascular invasion                                  0.507638   
+Pleural invasion (elastic, visceral, or parietal)        0.001246   
+EGFR mutation status                                     0.001068   
+KRAS mutation status                                     0.000495   
+ALK translocation status                                 0.001150   
+Adjuvant Treatment                                       0.000857   
+Chemotherapy                                             0.000857   
+Radiation                                                0.001101   
+Recurrence                                               1.084581   
+Days between CT and surgery                              0.003824   
+
+                                                   exp(coef) lower 95%  \
+covariate                                                                
+Age                                                           0.988263   
+Weight (lbs)                                                  0.999992   
+Gender                                                        0.998380   
+Ethnicity                                                     0.999509   
+Smoking status                                                0.506942   
+%GG                                                           0.778985   
+Tumor Location (choice=RUL)                                   0.518667   
+Tumor Location (choice=RML)                                   0.267592   
+Tumor Location (choice=RLL)                                   0.998367   
+Tumor Location (choice=LUL)                                   0.999322   
+Tumor Location (choice=LLL)                                   0.999147   
+Histology                                                     0.998893   
+Pathological T stage                                          0.999806   
+Pathological N stage                                          1.053088   
+Pathological M stage                                          0.454615   
+Histopathological Grade                                       0.999616   
+Lymphovascular invasion                                       0.696598   
+Pleural invasion (elastic, visceral, or parietal)             0.998756   
+EGFR mutation status                                          0.998934   
+KRAS mutation status                                          0.999506   
+ALK translocation status                                      0.998851   
+Adjuvant Treatment                                            0.999143   
+Chemotherapy                                                  0.999143   
+Radiation                                                     0.998899   
+Recurrence                                                    0.767676   
+Days between CT and surgery                                   0.996042   
+
+                                                   exp(coef) upper 95%  \
+covariate                                                                
+Age                                                           1.058999   
+Weight (lbs)                                                  1.000008   
+Gender                                                        1.001624   
+Ethnicity                                                     1.000492   
+Smoking status                                                1.396412   
+%GG                                                           1.046485   
+Tumor Location (choice=RUL)                                   2.005043   
+Tumor Location (choice=RML)                                   2.220747   
+Tumor Location (choice=RLL)                                   1.001635   
+Tumor Location (choice=LUL)                                   1.000678   
+Tumor Location (choice=LLL)                                   1.000854   
+Histology                                                     1.001107   
+Pathological T stage                                          1.000194   
+Pathological N stage                                          2.623986   
+Pathological M stage                                          2.568506   
+Histopathological Grade                                       1.000384   
+Lymphovascular invasion                                       1.661363   
+Pleural invasion (elastic, visceral, or parietal)             1.001247   
+EGFR mutation status                                          1.001068   
+KRAS mutation status                                          1.000495   
+ALK translocation status                                      1.001151   
+Adjuvant Treatment                                            1.000857   
+Chemotherapy                                                  1.000857   
+Radiation                                                     1.001102   
+Recurrence                                                    2.958199   
+Days between CT and surgery                                   1.003832   
+
+                                                   cmp to         z         p  \
+covariate                                                                       
+Age                                                   0.0  1.290508  0.196874   
+Weight (lbs)                                          0.0  0.000164  0.999869   
+Gender                                                0.0  0.000554  0.999558   
+Ethnicity                                             0.0 -0.000235  0.999813   
+Smoking status                                        0.0 -0.668212  0.503998   
+%GG                                                   0.0 -1.356615  0.174904   
+Tumor Location (choice=RUL)                           0.0  0.056780  0.954721   
+Tumor Location (choice=RML)                           0.0 -0.482040  0.629778   
+Tumor Location (choice=RLL)                           0.0 -0.000578  0.999539   
+Tumor Location (choice=LUL)                           0.0 -0.000084  0.999933   
+Tumor Location (choice=LLL)                           0.0  0.000180  0.999856   
+Histology                                             0.0 -0.000520  0.999585   
+Pathological T stage                                  0.0  0.000354  0.999717   
+Pathological N stage                                  0.0  2.182059  0.029105   
+Pathological M stage                                  0.0  0.175462  0.860716   
+Histopathological Grade                               0.0 -0.000553  0.999558   
+Lymphovascular invasion                               0.0  0.329428  0.741832   
+Pleural invasion (elastic, visceral, or parietal)     0.0  0.000577  0.999540   
+EGFR mutation status                                  0.0  0.000528  0.999579   
+KRAS mutation status                                  0.0  0.000535  0.999573   
+ALK translocation status                              0.0  0.000578  0.999539   
+Adjuvant Treatment                                    0.0 -0.000479  0.999618   
+Chemotherapy                                          0.0 -0.000479  0.999618   
+Radiation                                             0.0 -0.000255  0.999797   
+Recurrence                                            0.0  1.191688  0.233384   
+Days between CT and surgery                           0.0 -0.035632  0.971576   
+
+                                                   -log2(p)  
+covariate                                                    
+Age                                                2.344653  
+Weight (lbs)                                       0.000189  
+Gender                                             0.000637  
+Ethnicity                                          0.000270  
+Smoking status                                     0.988510  
+%GG                                                2.515367  
+Tumor Location (choice=RUL)                        0.066850  
+Tumor Location (choice=RML)                        0.667085  
+Tumor Location (choice=RLL)                        0.000666  
+Tumor Location (choice=LUL)                        0.000096  
+Tumor Location (choice=LLL)                        0.000207  
+Histology                                          0.000599  
+Pathological T stage                               0.000408  
+Pathological N stage                               5.102580  
+Pathological M stage                               0.216390  
+Histopathological Grade                            0.000637  
+Lymphovascular invasion                            0.430835  
+Pleural invasion (elastic, visceral, or parietal)  0.000664  
+EGFR mutation status                               0.000608  
+KRAS mutation status                               0.000616  
+ALK translocation status                           0.000665  
+Adjuvant Treatment                                 0.000552  
+Chemotherapy                                       0.000552  
+Radiation                                          0.000293  
+Recurrence                                         2.099225  
+Days between CT and surgery                        0.041602  
+
+EFFICIENCY:
+Concordance index (train): 0.7529
+Concordance index (test): 0.7746
+
+HAZARD RATIOS VÀ CI:
+Age: HR = 1.023 (95% CI: 0.988 - 1.059), p-value = 0.1969
+Weight (lbs): HR = 1.000 (95% CI: 1.000 - 1.000), p-value = 0.9999
+Gender: HR = 1.000 (95% CI: 0.998 - 1.002), p-value = 0.9996
+Ethnicity: HR = 1.000 (95% CI: 1.000 - 1.000), p-value = 0.9998
+Smoking status: HR = 0.841 (95% CI: 0.507 - 1.396), p-value = 0.5040
+%GG: HR = 0.903 (95% CI: 0.779 - 1.046), p-value = 0.1749
+Tumor Location (choice=RUL): HR = 1.020 (95% CI: 0.519 - 2.005), p-value = 0.9547
+Tumor Location (choice=RML): HR = 0.771 (95% CI: 0.268 - 2.221), p-value = 0.6298
+Tumor Location (choice=RLL): HR = 1.000 (95% CI: 0.998 - 1.002), p-value = 0.9995
+Tumor Location (choice=LUL): HR = 1.000 (95% CI: 0.999 - 1.001), p-value = 0.9999
+Tumor Location (choice=LLL): HR = 1.000 (95% CI: 0.999 - 1.001), p-value = 0.9999
+Histology: HR = 1.000 (95% CI: 0.999 - 1.001), p-value = 0.9996
+Pathological T stage: HR = 1.000 (95% CI: 1.000 - 1.000), p-value = 0.9997
+Pathological N stage: HR = 1.662 (95% CI: 1.053 - 2.624), p-value = 0.0291
+Pathological M stage: HR = 1.081 (95% CI: 0.455 - 2.569), p-value = 0.8607
+Histopathological Grade: HR = 1.000 (95% CI: 1.000 - 1.000), p-value = 0.9996
+Lymphovascular invasion: HR = 1.076 (95% CI: 0.697 - 1.661), p-value = 0.7418
+Pleural invasion (elastic, visceral, or parietal): HR = 1.000 (95% CI: 0.999 - 1.001), p-value = 0.9995
+EGFR mutation status: HR = 1.000 (95% CI: 0.999 - 1.001), p-value = 0.9996
+KRAS mutation status: HR = 1.000 (95% CI: 1.000 - 1.000), p-value = 0.9996
+ALK translocation status: HR = 1.000 (95% CI: 0.999 - 1.001), p-value = 0.9995
+Adjuvant Treatment: HR = 1.000 (95% CI: 0.999 - 1.001), p-value = 0.9996
+Chemotherapy: HR = 1.000 (95% CI: 0.999 - 1.001), p-value = 0.9996
+Radiation: HR = 1.000 (95% CI: 0.999 - 1.001), p-value = 0.9998
+Recurrence: HR = 1.507 (95% CI: 0.768 - 2.958), p-value = 0.2334
+Days between CT and surgery: HR = 1.000 (95% CI: 0.996 - 1.004), p-value = 0.9716
+
+CROSS-VALIDATION RESULT:
+Number of fold: 5
+Concordance indexes: [0.7717, 0.7389, 0.7039, 0.6119, 0.6233]
+Concordance index mean: 0.6899 ± 0.0630

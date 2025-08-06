@@ -1,0 +1,117 @@
+Patient ID	Issue	Details
+008	Origin Mismatch	CT=[ 192.    39.  -336.5], Segmentation=[ 192.    39.  -159.5]
+008	Dimension Mismatch	CT=(512, 512, 199), Segmentation=(512, 512, 19)
+022	Origin Mismatch	CT=[233.5       263.6000061 305.       ], Segmentation=[233.5       263.6000061 425.       ]
+022	Dimension Mismatch	CT=(512, 512, 235), Segmentation=(512, 512, 22)
+023	Origin Mismatch	CT=[ 212.8999939  204.1000061 -224.       ], Segmentation=[212.8999939 204.1000061 -54.625    ]
+023	Dimension Mismatch	CT=(512, 512, 483), Segmentation=(512, 512, 69)
+026	Origin Mismatch	CT=[ 200.5  205.  -375. ], Segmentation=[ 200.5  205.  -156. ]
+026	Dimension Mismatch	CT=(512, 512, 376), Segmentation=(512, 512, 19)
+038	Origin Mismatch	CT=[ 177.59062195  209.04374695 -270.6875    ], Segmentation=[177.59062195 209.04374695  -3.1875    ]
+038	Dimension Mismatch	CT=(512, 512, 125), Segmentation=(512, 512, 6)
+076	Origin Mismatch	CT=[ 216.10058594  394.60058594 -347.6000061 ], Segmentation=[ 216.10058594  394.60058594 -108.40000153]
+076	Dimension Mismatch	CT=(512, 512, 423), Segmentation=(512, 512, 35)
+078	Origin Mismatch	CT=[ 186.    170.   -250.25], Segmentation=[186.   170.   -85.25]
+078	Dimension Mismatch	CT=(512, 512, 271), Segmentation=(512, 512, 72)
+089	Spacing Mismatch	CT=(0.68359375, 0.68359375, 0.79999995), Segmentation=(0.68359375, 0.68359375, 0.799988)
+089	Origin Mismatch	CT=[197.          6.5421381 269.5      ], Segmentation=[197.           6.5421381  402.29998779]
+089	Dimension Mismatch	CT=(512, 512, 368), Segmentation=(512, 512, 77)
+098	Origin Mismatch	CT=[ 166.          -39.         -154.60003662], Segmentation=[166.        -39.         50.8999939]
+098	Dimension Mismatch	CT=(512, 512, 212), Segmentation=(512, 512, 22)
+099	Origin Mismatch	CT=[ 150.6875      291.6875     -357.29998779], Segmentation=[ 150.6875      291.6875     -182.30000305]
+099	Dimension Mismatch	CT=(512, 512, 248), Segmentation=(512, 512, 50)
+100	Origin Mismatch	CT=[ 175.   151.5 -538. ], Segmentation=[ 175.   151.5 -403. ]
+100	Dimension Mismatch	CT=(512, 512, 230), Segmentation=(512, 512, 25)
+101	Origin Mismatch	CT=[ 171.15136719  346.65136719 -344.        ], Segmentation=[ 171.15136719  346.65136719 -188.        ]
+101	Dimension Mismatch	CT=(512, 512, 305), Segmentation=(512, 512, 26)
+102	Origin Mismatch	CT=[ 185.   185.  -481.5], Segmentation=[ 185.    185.   -237.75]
+102	Dimension Mismatch	CT=(512, 512, 254), Segmentation=(512, 512, 38)
+103	Origin Mismatch	CT=[ 196.69999695  176.6000061  -505.        ], Segmentation=[ 196.69999695  176.6000061  -332.5       ]
+103	Dimension Mismatch	CT=(512, 512, 243), Segmentation=(512, 512, 65)
+104	Origin Mismatch	CT=[ 203.   203.  -560.5], Segmentation=[ 203.    203.   -306.75]
+104	Dimension Mismatch	CT=(512, 512, 259), Segmentation=(512, 512, 23)
+105	Origin Mismatch	CT=[ 175.80000305  151.1000061  -273.25      ], Segmentation=[ 175.80000305  151.1000061  -203.25      ]
+105	Dimension Mismatch	CT=(512, 512, 121), Segmentation=(512, 512, 14)
+106	Origin Mismatch	CT=[ 208.    208.   -272.75], Segmentation=[208.   208.   -35.25]
+106	Dimension Mismatch	CT=(512, 512, 133), Segmentation=(512, 512, 23)
+107	Origin Mismatch	CT=[ 186.3999939   169.69999695 -496.        ], Segmentation=[ 186.3999939   169.69999695 -238.5       ]
+107	Dimension Mismatch	CT=(512, 512, 268), Segmentation=(512, 512, 41)
+108	Origin Mismatch	CT=[ 214.5        169.3999939 -265.       ], Segmentation=[214.5       169.3999939 -82.5      ]
+108	Dimension Mismatch	CT=(512, 512, 251), Segmentation=(512, 512, 13)
+109	Origin Mismatch	CT=[ 193.30000305  224.80000305 -356.75      ], Segmentation=[ 193.30000305  224.80000305 -268.        ]
+109	Dimension Mismatch	CT=(512, 512, 280), Segmentation=(512, 512, 13)
+110	Origin Mismatch	CT=[ 200.  200. -290.], Segmentation=[ 200.    200.   -233.75]
+110	Dimension Mismatch	CT=(512, 512, 233), Segmentation=(512, 512, 28)
+111	Origin Mismatch	CT=[ 243.30000305  235.         -300.        ], Segmentation=[ 243.30000305  235.         -195.        ]
+111	Dimension Mismatch	CT=(512, 512, 233), Segmentation=(512, 512, 13)
+112	Origin Mismatch	CT=[ 243.30000305  269.1000061  -307.        ], Segmentation=[ 243.30000305  269.1000061  -240.75      ]
+112	Dimension Mismatch	CT=(512, 512, 250), Segmentation=(512, 512, 61)
+113	Origin Mismatch	CT=[ 219.    219.   -259.25], Segmentation=[219.   219.   -71.75]
+113	Dimension Mismatch	CT=(512, 512, 241), Segmentation=(512, 512, 47)
+114	Origin Mismatch	CT=[ 244.30000305  250.         -283.5       ], Segmentation=[ 244.30000305  250.         -169.75      ]
+114	Dimension Mismatch	CT=(512, 512, 226), Segmentation=(512, 512, 47)
+115	Origin Mismatch	CT=[ 185.5  200.  -302. ], Segmentation=[ 185.5   200.   -173.25]
+115	Dimension Mismatch	CT=(512, 512, 245), Segmentation=(512, 512, 10)
+116	Spacing Mismatch	CT=(0.78125, 0.78125, 1.25), Segmentation=(1.0, 1.0, 1.25)
+116	Origin Mismatch	CT=[ 200.   200.  -264.5], Segmentation=[200. 200. -72.]
+116	Dimension Mismatch	CT=(512, 512, 223), Segmentation=(512, 512, 11)
+117	Origin Mismatch	CT=[ 180.         168.6000061 -286.25     ], Segmentation=[ 180.         168.6000061 -165.       ]
+117	Dimension Mismatch	CT=(512, 512, 222), Segmentation=(512, 512, 35)
+118	Origin Mismatch	CT=[ 214.8999939  234.5       -263.       ], Segmentation=[ 214.8999939  234.5       -160.5      ]
+118	Dimension Mismatch	CT=(512, 512, 211), Segmentation=(512, 512, 29)
+119	Origin Mismatch	CT=[ 229.30000305  199.30000305 -252.        ], Segmentation=[ 229.30000305  199.30000305 -140.75      ]
+119	Dimension Mismatch	CT=(512, 512, 228), Segmentation=(512, 512, 44)
+120	Spacing Mismatch	CT=(0.820312, 0.820312, 1.25), Segmentation=(1.0, 1.0, 1.25)
+120	Origin Mismatch	CT=[ 211.6000061   215.19999695 -279.25      ], Segmentation=[211.6000061  215.19999695 -81.75      ]
+120	Dimension Mismatch	CT=(512, 512, 242), Segmentation=(512, 512, 18)
+121	Spacing Mismatch	CT=(0.820312, 0.820312, 1.25), Segmentation=(1.0, 1.0, 1.25)
+121	Origin Mismatch	CT=[ 196.  210. -338.], Segmentation=[ 196.    210.   -231.75]
+121	Dimension Mismatch	CT=(512, 512, 234), Segmentation=(512, 512, 18)
+122	Origin Mismatch	CT=[ 180.19999695  220.         -281.5       ], Segmentation=[180.19999695 220.         -60.25      ]
+122	Dimension Mismatch	CT=(512, 512, 237), Segmentation=(512, 512, 23)
+123	Origin Mismatch	CT=[ 225.1000061  237.        -233.75     ], Segmentation=[ 225.1000061  237.        -142.5      ]
+123	Dimension Mismatch	CT=(512, 512, 222), Segmentation=(512, 512, 11)
+124	Origin Mismatch	CT=[ 266.5         258.79998779 -279.75      ], Segmentation=[266.5        258.79998779 -83.5       ]
+124	Dimension Mismatch	CT=(512, 512, 251), Segmentation=(512, 512, 23)
+125	Origin Mismatch	CT=[ 180.   180.  -345.5], Segmentation=[ 180.   180.  -155.5]
+125	Dimension Mismatch	CT=(512, 512, 266), Segmentation=(512, 512, 10)
+126	Origin Mismatch	CT=[ 180.  180. -400.], Segmentation=[ 180.  180. -155.]
+126	Dimension Mismatch	CT=(512, 512, 327), Segmentation=(512, 512, 20)
+127	Origin Mismatch	CT=[ 184.15527344  349.15527344 -316.        ], Segmentation=[ 184.15527344  349.15527344 -148.        ]
+127	Dimension Mismatch	CT=(512, 512, 301), Segmentation=(512, 512, 27)
+128	Origin Mismatch	CT=[ 131.5  159.5 -262. ], Segmentation=[ 131.5  159.5 -201. ]
+128	Dimension Mismatch	CT=(512, 512, 259), Segmentation=(512, 512, 22)
+129	Origin Mismatch	CT=[ 184.19999695  180.         -384.5       ], Segmentation=[ 184.19999695  180.         -143.25      ]
+129	Dimension Mismatch	CT=(512, 512, 292), Segmentation=(512, 512, 40)
+130	Origin Mismatch	CT=[ 233.39840698  237.30459595 1240.5       ], Segmentation=[ 233.39840698  237.30459595 1384.5       ]
+130	Dimension Mismatch	CT=(512, 512, 157), Segmentation=(512, 512, 17)
+131	Origin Mismatch	CT=[ 165.80000305  173.         -378.75      ], Segmentation=[165.80000305 173.         -82.5       ]
+131	Dimension Mismatch	CT=(512, 512, 301), Segmentation=(512, 512, 24)
+132	Origin Mismatch	CT=[ 196.6000061  180.        -324.125    ], Segmentation=[ 196.6000061  180.        -104.125    ]
+132	Dimension Mismatch	CT=(512, 512, 138), Segmentation=(512, 512, 12)
+133	Origin Mismatch	CT=[ 191.59179688  372.09179688 -345.        ], Segmentation=[ 191.59179688  372.09179688 -246.        ]
+133	Dimension Mismatch	CT=(512, 512, 346), Segmentation=(512, 512, 39)
+134	Origin Mismatch	CT=[ 122.    151.   -335.75], Segmentation=[122.   151.   -53.25]
+134	Dimension Mismatch	CT=(512, 512, 265), Segmentation=(512, 512, 19)
+135	Origin Mismatch	CT=[ 172.19999695  180.         -579.75      ], Segmentation=[ 172.19999695  180.         -413.5       ]
+135	Dimension Mismatch	CT=(512, 512, 273), Segmentation=(512, 512, 47)
+136	Origin Mismatch	CT=[165.68945312 292.18945312 -14.30000019], Segmentation=[165.68945312 292.18945312 135.69999695]
+136	Dimension Mismatch	CT=(512, 512, 131), Segmentation=(512, 512, 10)
+137	Origin Mismatch	CT=[ 186.12402344  360.12402344 -340.5       ], Segmentation=[ 186.12402344  360.12402344 -139.5       ]
+137	Dimension Mismatch	CT=(512, 512, 310), Segmentation=(512, 512, 36)
+138	Origin Mismatch	CT=[ 179.14550781  329.14550781 -326.5       ], Segmentation=[ 179.14550781  329.14550781 -178.5       ]
+138	Dimension Mismatch	CT=(512, 512, 299), Segmentation=(512, 512, 18)
+139	Origin Mismatch	CT=[ 210.    210.   -475.75], Segmentation=[ 210.    210.   -295.75]
+139	Dimension Mismatch	CT=(512, 512, 257), Segmentation=(512, 512, 39)
+140	Origin Mismatch	CT=[ 160.80000305  180.         -519.75      ], Segmentation=[ 160.80000305  180.         -326.        ]
+140	Dimension Mismatch	CT=(512, 512, 269), Segmentation=(512, 512, 15)
+141	Origin Mismatch	CT=[ 180.   180.  -320.5], Segmentation=[ 180.    180.   -249.25]
+141	Dimension Mismatch	CT=(512, 512, 241), Segmentation=(512, 512, 23)
+142	Origin Mismatch	CT=[  191.13769531   379.13769531 -1128.80004883], Segmentation=[ 191.13769531  379.13769531 -842.79998779]
+142	Dimension Mismatch	CT=(512, 512, 207), Segmentation=(512, 512, 16)
+144	Origin Mismatch	CT=[ 196.5         204.19999695 -460.        ], Segmentation=[ 196.5         204.19999695 -263.75      ]
+144	Dimension Mismatch	CT=(512, 512, 265), Segmentation=(512, 512, 12)
+145	Origin Mismatch	CT=[160.18066406 308.18066406   1.60000002], Segmentation=[160.18066406 308.18066406 135.6000061 ]
+145	Dimension Mismatch	CT=(512, 512, 326), Segmentation=(512, 512, 38)
+146	Origin Mismatch	CT=[ 172.19999695  160.30000305 -214.80999756], Segmentation=[ 172.19999695  160.30000305 -154.18499756]
+146	Dimension Mismatch	CT=(512, 512, 397), Segmentation=(512, 512, 112)

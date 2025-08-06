@@ -1,0 +1,26 @@
+Training Summary
+==================================================
+
+Training Losses:
+Epoch 1: Train Loss = 100.183943, Val Loss = 15.444890
+Epoch 2: Train Loss = 99.750912, Val Loss = 28.620597
+Epoch 3: Train Loss = 98.724526, Val Loss = 40.932671
+Epoch 4: Train Loss = 97.450926, Val Loss = 50.861774
+Epoch 5: Train Loss = 97.051469, Val Loss = 57.707867
+Epoch 6: Train Loss = 96.085371, Val Loss = 61.159575
+Epoch 7: Train Loss = 95.163880, Val Loss = 62.587753
+Epoch 8: Train Loss = 94.768211, Val Loss = 62.534084
+Epoch 9: Train Loss = 94.292807, Val Loss = 61.113008
+Epoch 10: Train Loss = 92.919226, Val Loss = 61.522974
+Epoch 11: Train Loss = 92.547321, Val Loss = 61.051636
+Epoch 12: Train Loss = 91.678992, Val Loss = 60.668663
+Epoch 13: Train Loss = 90.940014, Val Loss = 59.553591
+Epoch 14: Train Loss = 90.087606, Val Loss = 59.980015
+Epoch 15: Train Loss = 89.743954, Val Loss = 59.452793
+Epoch 16: Train Loss = 88.634761, Val Loss = 60.096964
+
+Feature Quality Metrics:
+avg_pairwise_distance: 3.4731779198113735
+std_pairwise_distance: 0.7341005264446345
+silhouette_score: 0.054376110434532166
+umap_visualization: logs/umap_feature_visualization.png
